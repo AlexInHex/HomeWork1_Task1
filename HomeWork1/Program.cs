@@ -92,12 +92,11 @@ namespace HomeWork1
                 if (parseResultNum1)
                 {
                     Console.WriteLine("Отличный выбор!");
+                    res = Math.Sqrt(num1);
                 }
                 else
                 {
                     Console.WriteLine("Введите верное число");
-
-                    res = Math.Sqrt(num1);
                 }
             }
 
